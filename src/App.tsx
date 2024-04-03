@@ -7,8 +7,7 @@ import { MapboxExportControl } from "@watergis/mapbox-gl-export"; // Import the 
 
 //
 function App() {
-  mapboxgl.accessToken =
-    "pk.eyJ1IjoiY29vaW5nIiwiYSI6ImNrbnEwNHc1dTBlbXQycW56djNwNmh0eWMifQ.KoEjmTlbLWqEIy4g_RIF-g";
+  mapboxgl.accessToken = "";
 
   useEffect(() => {
     // This code runs after the component has been rendered to the DOM
